@@ -14,11 +14,13 @@ const App = () => {
 					</div>
 				</div>
 			</div>
-      <div className="btns">
-        <a href="#">Начать</a>
-        <a href="#">Презентация</a>
-        <a href="#">Паспорт</a>
-      </div>
+			<div className='btns'>
+				<a href='http://91.107.125.49/'>Начать</a>
+				<a href='/src/assets/organized.pdf' download='proposed_file_name'>
+					Презентация
+				</a>
+				<a href='#'>Паспорт</a>
+			</div>
 		</div>
 	)
 }
