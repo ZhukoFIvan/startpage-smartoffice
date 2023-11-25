@@ -15,14 +15,14 @@ const App = () => {
 				</div>
 			</div>
 			<div className='btns'>
-				<a href='http://91.107.125.49/'>Начать</a>
-				<a href='https://reoffice-contacts.vercel.app/'>Контакты</a>
-				<a href='/src/assets/organized.pdf'>
-					Презентация
+				<a href='http://91.107.125.49/' download>
+					Начать
 				</a>
-				<a
-					href='/src/assets/Паспорт Стартап-проекта_MISIS PLUS.docx'
-				>
+				<a href='https://reoffice-contacts.vercel.app/' download>
+					Контакты
+				</a>
+				<a href='/src/assets/organized.pdf'>Презентация</a>
+				<a href='/src/assets/Паспорт Стартап-проекта_MISIS PLUS.docx'>
 					Паспорт
 				</a>
 			</div>
