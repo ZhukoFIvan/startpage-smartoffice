@@ -19,7 +19,12 @@ const App = () => {
 				<a href='/src/assets/organized.pdf' download='proposed_file_name'>
 					Презентация
 				</a>
-				<a href='#'>Паспорт</a>
+				<a
+					href='/src/assets/Паспорт Стартап-проекта_MISIS PLUS.docx'
+					download='proposed_file_name'
+				>
+					Паспорт
+				</a>
 			</div>
 		</div>
 	)
