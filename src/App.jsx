@@ -1,5 +1,5 @@
 import './App.scss'
-import ExamplePdf from './organized.pdf';
+import ExamplePdf from './organized.pdf'
 
 const App = () => {
 	return (
@@ -17,21 +17,11 @@ const App = () => {
 				</div>
 			</div>
 			<div className='btns'>
-				<a href='http://91.107.125.49/' >
-					Начать
+				<a href='https://hilarious-clafoutis-1966f0.netlify.app/'>Начать</a>
+				<a href='https://reoffice-contacts.vercel.app/'>Контакты</a>
+				<a href={ExamplePdf} download='pdf' target='_blank' rel='noreferrer'>
+					Презентация
 				</a>
-				<a href='https://reoffice-contacts.vercel.app/' >
-					Контакты
-				</a>
-				<a
-        href={ExamplePdf}
-        download="pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-				Презентация
-      </a>
-			
 			</div>
 		</div>
 	)
